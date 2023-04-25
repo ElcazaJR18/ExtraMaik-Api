@@ -223,4 +223,14 @@ public class DaoCliente implements Repository<BeanCliente> {
         return null;
     }
 
+    @Override
+    public Response<List> puntoCinco() {
+        return null;
+    }
+
+    @Override
+    public Response<Integer> puntoSeis() {
+        return null;
+    }
+
 }

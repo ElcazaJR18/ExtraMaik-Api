@@ -14,6 +14,8 @@ public interface Repository <T>{
 
     Response<List> puntoCuatro();
 
+    Response<List> puntoCinco();
 
+    Response<Integer> puntoSeis();
 
 }
