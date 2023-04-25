@@ -9,13 +9,14 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
+
 @Path("/api/cliente")
 public class ServiceCliente {
     @GET
     @Path("/puntoUno/")
     @Produces(value = {"application/json"})
-    //@Produces(MediaType.APPLICATION_JSON)
 
+    //@Produces(MediaType.APPLICATION_JSON)
     public Response<List> puntoUno(){
         return new DaoCliente().puntoUno();
     }
