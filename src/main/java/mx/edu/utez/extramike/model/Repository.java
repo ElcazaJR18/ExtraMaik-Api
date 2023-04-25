@@ -18,4 +18,12 @@ public interface Repository <T>{
 
     Response<Integer> puntoSeis();
 
+    Response<List> puntoSiete();
+
+    Response<Double> puntoOcho();
+
+    Response<List> puntoNueve();
+
+    Response<String> puntoDiez();
+
 }

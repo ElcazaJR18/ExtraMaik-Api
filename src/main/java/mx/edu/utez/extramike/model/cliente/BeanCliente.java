@@ -43,6 +43,7 @@ public class BeanCliente {
         this.limite_credito = limite_credito;
     }
 
+
     public int getCodigo_cliente() {
         return codigo_cliente;
     }

@@ -210,4 +210,24 @@ public class DaoEmpleado  implements Repository<BeanEmpleado> {
         }
         return response;
     }
+
+    @Override
+    public Response<List> puntoSiete() {
+        return null;
+    }
+
+    @Override
+    public Response<Double> puntoOcho() {
+        return null;
+    }
+
+    @Override
+    public Response<List> puntoNueve() {
+        return null;
+    }
+
+    @Override
+    public Response<String> puntoDiez() {
+        return null;
+    }
 }

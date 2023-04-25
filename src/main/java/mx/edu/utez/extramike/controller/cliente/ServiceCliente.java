@@ -37,4 +37,23 @@ public class ServiceCliente {
         return new DaoCliente().puntoTres();
     }
 
+    @GET
+    @Path("/puntoSiete/")
+    @Produces(MediaType.APPLICATION_JSON)
+
+    public Response<List> puntoSiete(){
+        return new DaoCliente().puntoSiete();
+    }
+
+
+
+    @GET
+    @Path("/puntoDiez/")
+    @Produces(MediaType.APPLICATION_JSON)
+
+    public Response<String> puntoDiez(){
+        return new DaoCliente().puntoDiez();
+    }
+
+
 }
